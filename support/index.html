@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleepybee — Support</title>
+<meta name="description" content="Get help with Sleepybee: FAQs, contact, and privacy information.">
+<style>
+  :root { color-scheme: dark;
+    --bg: #0d0f1c; --card: #191b2e; --honey: #f5c054; --night: #8d9efa;
+    --text: #ebecf2; --muted: #9a9cb0; }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: -apple-system, "SF Pro Rounded", system-ui, sans-serif;
+         background: var(--bg); color: var(--text); line-height: 1.65; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 24px 64px; }
+  nav { padding: 20px 24px; max-width: 680px; margin: 0 auto; }
+  nav a { color: var(--muted); text-decoration: none; font-size: .9rem; }
+  header { text-align: center; padding: 40px 0 24px; }
+  .bee { font-size: 52px; }
+  h1 { font-size: 2rem; margin-top: 8px; }
+  h1 .gold { color: var(--honey); }
+  .contact { background: linear-gradient(135deg, #1c2038, var(--card));
+    border: 1px solid rgba(245,192,84,.2); border-radius: 20px;
+    padding: 28px; text-align: center; margin: 24px 0 40px; }
+  .contact a { color: var(--night); font-weight: 700; font-size: 1.15rem;
+    text-decoration: none; }
+  .contact p { color: var(--muted); font-size: .9rem; margin-top: 6px; }
+  h2 { color: var(--honey); font-size: 1.2rem; margin: 36px 0 12px; }
+  .qa { background: var(--card); border-radius: 16px; padding: 20px 24px; margin: 12px 0; }
+  .qa h3 { font-size: 1rem; margin-bottom: 6px; }
+  .qa p { color: var(--muted); font-size: .95rem; }
+  footer { border-top: 1px solid rgba(255,255,255,.06); padding: 28px 24px;
+    text-align: center; color: var(--muted); font-size: .85rem; }
+  footer a { color: var(--night); text-decoration: none; }
+</style>
+</head>
+<body>
+<nav><a href="/">← sleepybee.app</a></nav>
+<div class="wrap">
+<header>
+  <span class="bee">🐝</span>
+  <h1>Sleepy<span class="gold">bee</span> Support</h1>
+</header>
+
+<div class="contact">
+  <a href="mailto:sleepybee.app@gmail.com">sleepybee.app@gmail.com</a>
+  <p>Questions, bugs, or ideas — we answer fast, usually within a day.</p>
+</div>
+
+<h2>Frequently asked questions</h2>
+
+<div class="qa"><h3>Is my baby's audio recorded?</h3>
+<p>No. Cry detection runs entirely on your device using Apple's on-device sound
+analysis. Audio is analyzed in memory and immediately discarded — never recorded,
+stored, or uploaded.</p></div>
+
+<div class="qa"><h3>Where are sleep logs kept?</h3>
+<p>On your device only. Sleep sessions, cry events, and statistics never leave your phone.</p></div>
+
+<div class="qa"><h3>Do I need an account?</h3>
+<p>Only for cross-device cry alerts. Sounds, sessions, cry detection, and sleep
+logging all work without one.</p></div>
+
+<div class="qa"><h3>How do cry alerts work across devices?</h3>
+<p>Set the phone in the nursery to <strong>Nursery</strong>. Sign into the same
+Sleepybee account on your own phone (role: <strong>Parent</strong>). When crying
+is detected, your phone gets a push notification — anywhere, even with the app
+closed. A same-Wi-Fi Nightstand mode also rings a bedside device loudly.</p></div>
+
+<div class="qa"><h3>How do I delete my account?</h3>
+<p>Profile → Account → <strong>Delete account</strong>. This permanently removes
+your account, device tokens, and alert history from our servers.</p></div>
+
+<div class="qa"><h3>Why don't short sessions appear in the log?</h3>
+<p>Sessions under 10 minutes aren't logged — this filters out false starts and
+accidental taps so your sleep statistics stay meaningful.</p></div>
+
+<div class="qa"><h3>Is Sleepybee a medical device?</h3>
+<p>No. Sleepybee is a sleep aid and monitoring aid — not a medical device. It
+cannot detect breathing problems or prevent SIDS, and it is not a substitute for
+adult supervision. Always follow safe-sleep guidance.</p></div>
+
+<h2>Privacy</h2>
+<div class="qa"><p>Read the full <a href="/privacy.html" style="color:var(--night)">Privacy Policy</a>.</p></div>
+</div>
+
+<footer>
+  <p><a href="/">Home</a> · <a href="/privacy.html">Privacy Policy</a> ·
+  <a href="mailto:sleepybee.app@gmail.com">Contact</a></p>
+  <p style="margin-top:8px">© 2026 Sleepybee · William Del Principe</p>
+</footer>
+</body>
+</html>
